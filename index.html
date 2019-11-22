@@ -1,0 +1,133 @@
+<html>
+
+<head>
+<meta charset = "utf-8">
+<link rel = "stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<title>Registration</title>
+</head>
+
+<body>
+
+<form>
+
+<fieldset id="register">
+
+<legend id="regist">Registration</legend>
+
+<label for="username">Username</label><br>
+<input type = "text" id="username" required>
+
+<br>
+
+<label for="status">Status</label><br>
+<select>
+ <option>Voob</option>
+<option>Test</option>
+</select>
+
+<br>
+
+<label for="email">Email</label><br>
+<input type="email" placeholder="example@champlaincollege.com" pattern="*@champlaincollege.com" required>
+
+<br>
+
+<label for="Phone">Phone</label><br>
+<input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+<br>
+
+<label for="website">Website</label><br>
+<input type="url" name="url" placeholder="https://example.com" pattern="https://.*" size="30">
+<br>
+
+<label for="about">About</label><br>
+<textarea></textarea>
+<br>
+
+<label for="cities">Cities you've visited</label><br>
+
+<select>
+<option>Montreal</option>
+ <option>New York</option>
+  <option>Boston</option>
+ <option>Ottawa</option>
+</select>
+<br>
+
+<label for="password">Password</label><br>
+<input type="password" required>
+<br>
+
+<label for="confirmpass">Confirm Password</label><br>
+<input type="password" required>
+<br>
+
+<input type="submit">
+<input type="reset">
+
+</fieldset>
+
+<fieldset>
+
+<legend>Search the website</legend>
+
+ <input type="search" id="site-search" placeholder="Input search here">
+<button>Search</button>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Choose a flavor</legend>
+
+<select>
+ <option>Vanilla</option>
+ <option>Chocolate</option>
+ <option>Conk</option>
+ <option>Bepis</option>
+</select>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Sex</legend>
+
+<input type="radio" id="male" name="sex">
+<label for="male">Male</label><br>
+
+<input type="radio" id="female" name="sex">
+<label for="female">Female</label>
+
+
+</fieldset>
+
+<fieldset>
+
+<legend>Languages</legend>
+
+<input type="radio" id="Eng" name="language">
+<label for="eng">I speak English</label><br>
+
+<input type="radio" id="fr" name="language">
+<label for="fr">I speak French</label><br>
+
+<input type="radio" id="esp" name="language">
+<label for="esp">I speak Spanish</label>
+
+</fieldset>
+
+<fieldset>
+
+<legend>Photo</legend>
+
+<input type="image" src="upload.png">
+
+</fieldset>
+
+</form>
+
+</body>
+
+</html>

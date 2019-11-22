@@ -1,0 +1,26 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+form{
+	width: 50%;
+	margin: auto;
+}
+
+fieldset{
+	background-color: #F5E0D2;
+}
+
+#regist{
+	background-color: #F39D65;
+	color: black;
+	text-align: center;
+	padding: 1em;
+}
+#register label{
+	color: #FF6300;
+}
+
+legend{
+	color: #FF6300;
+}
